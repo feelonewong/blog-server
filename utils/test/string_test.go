@@ -27,4 +27,11 @@ func TestCamel2Snake(t *testing.T) {
 	}
 }
 
+// 性能基准测试
+func BenchmarkRandString(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		utils.Camel2Snake("UserName")
+	}
+}
+
 //go test -v ./utils/test -run=^TestCamel2Snake$ -count=1
