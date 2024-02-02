@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6051308b-9221-4bed-9fba-a05d583d318f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/test/config_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/test/logger_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/log.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/log.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/string.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/string.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/test/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test/string_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.TestConfig in blog-server/utils/test">
+  <component name="RunManager" selected="Go Test.TestLogger in blog-server/utils/test">
     <configuration name="BenchmarkRandString in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="blog-server" />
       <working_directory value="$PROJECT_DIR$/utils/test" />
@@ -88,18 +86,6 @@
       <pattern value="^\QTestCaller\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCamel2Snake in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="blog-server" />
-      <working_directory value="$PROJECT_DIR$/utils/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="blog-server/utils/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCamel2Snake\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestConfig in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="blog-server" />
       <working_directory value="$PROJECT_DIR$/utils/test" />
@@ -110,6 +96,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestConfig\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLogger in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="blog-server" />
+      <working_directory value="$PROJECT_DIR$/utils/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="blog-server/utils/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestLogger\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRandStringRunes in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLogger in blog-server/utils/test" />
         <item itemvalue="Go Test.TestConfig in blog-server/utils/test" />
         <item itemvalue="Go Test.TestCaller in blog-server/utils/test" />
         <item itemvalue="Go Test.TestRandStringRunes in blog-server/utils/test" />
         <item itemvalue="Go Test.BenchmarkRandString in blog-server/utils/test" />
-        <item itemvalue="Go Test.TestCamel2Snake in blog-server/utils/test" />
       </list>
     </recent_temporary>
   </component>

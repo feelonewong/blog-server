@@ -1,0 +1,3 @@
+time="2024-02-02 17:02:14.393" level=info msg="this is info log" func=blog-server/utils/test.TestLogger file="/Users/feelonewong/repos/be/golang_workforce/blog-server/utils/test/logger_test.go:11"
+time="2024-02-02 17:03:13.952" level=info msg="this is info log" func=blog-server/utils/test.TestLogger file="/Users/feelonewong/repos/be/golang_workforce/blog-server/utils/test/logger_test.go:11"
+time="2024-02-02 17:03:13.955" level=warning msg="this is warn log" func=blog-server/utils/test.TestLogger file="/Users/feelonewong/repos/be/golang_workforce/blog-server/utils/test/logger_test.go:12"
