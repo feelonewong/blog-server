@@ -34,4 +34,9 @@ func BenchmarkRandString(b *testing.B) {
 	}
 }
 
+// 生成随机数
+func TestRandStringRunes(t *testing.T) {
+	fmt.Println(utils.RandStringRunes(20))
+}
+
 //go test -v ./utils/test -run=^TestCamel2Snake$ -count=1

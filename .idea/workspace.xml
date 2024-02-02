@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6051308b-9221-4bed-9fba-a05d583d318f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/test/config_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/string.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/string.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/test/string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test/string_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,34 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/feelonewong",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/feelonewong&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Go Test.BenchmarkRandString in blog-server/utils/test">
-    <configuration name="go build blog-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="blog-server" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="blog-server" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Go Test.TestConfig in blog-server/utils/test">
     <configuration name="BenchmarkRandString in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="blog-server" />
       <working_directory value="$PROJECT_DIR$/utils/test" />
@@ -76,6 +74,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gobench" />
       <pattern value="^\QBenchmarkRandString\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCaller in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="blog-server" />
+      <working_directory value="$PROJECT_DIR$/utils/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="blog-server/utils/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCaller\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCamel2Snake in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -90,11 +100,37 @@
       <pattern value="^\QTestCamel2Snake\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestConfig in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="blog-server" />
+      <working_directory value="$PROJECT_DIR$/utils/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="blog-server/utils/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestConfig\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRandStringRunes in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="blog-server" />
+      <working_directory value="$PROJECT_DIR$/utils/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="blog-server/utils/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestRandStringRunes\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestConfig in blog-server/utils/test" />
+        <item itemvalue="Go Test.TestCaller in blog-server/utils/test" />
+        <item itemvalue="Go Test.TestRandStringRunes in blog-server/utils/test" />
         <item itemvalue="Go Test.BenchmarkRandString in blog-server/utils/test" />
         <item itemvalue="Go Test.TestCamel2Snake in blog-server/utils/test" />
-        <item itemvalue="Go Build.go build blog-server" />
       </list>
     </recent_temporary>
   </component>

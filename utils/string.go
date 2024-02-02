@@ -48,6 +48,9 @@ func Camel2Snake(s string) string {
 	return string(t)
 }
 
+// rune和byte区别：
+// rune int32 4个字节  byte int8 1个字节  汉字或者表情符号需要3个字节
+// string(xx)的方式将byte切片或者rune切片转换为字符串
 var letterRunes = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 // 生成随机字符串
