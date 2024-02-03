@@ -1,0 +1,3 @@
+time="2024-02-03 19:37:21.977" level=info msg="connect to mysql db blog" func=blog-server/database.createMySQLDB file="D:/code/go/blog-server/database/db_connection.go:52"
+time="2024-02-03 19:52:28.959" level=info msg="this is info log" func=blog-server/utils/test.TestLogger file="D:/code/go/blog-server/utils/test/logger_test.go:11"
+time="2024-02-03 19:52:28.970" level=warning msg="this is warn log" func=blog-server/utils/test.TestLogger file="D:/code/go/blog-server/utils/test/logger_test.go:12"
