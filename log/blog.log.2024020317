@@ -1,0 +1,2 @@
+time="2024-02-03 17:00:30.230" level=info msg="this is info log" func=blog-server/utils/test.TestLogger file="D:/code/go/blog-server/utils/test/logger_test.go:11"
+time="2024-02-03 17:00:30.245" level=warning msg="this is warn log" func=blog-server/utils/test.TestLogger file="D:/code/go/blog-server/utils/test/logger_test.go:12"

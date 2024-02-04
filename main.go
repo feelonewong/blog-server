@@ -1,11 +1,7 @@
 package main
 
-import (
-	"blog-server/utils"
-	"fmt"
-)
+import "blog-server/database"
 
 func main() {
-	a := utils.Rs()
-	fmt.Printf(a)
+	database.GetBlogDBConnection()
 }

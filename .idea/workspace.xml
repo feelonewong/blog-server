@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6051308b-9221-4bed-9fba-a05d583d318f" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/blog.log.2024020217" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog.log.2024020217" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/database/db_connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/test/db_connection_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mysql.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -57,32 +68,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.TestLogger in blog-server/utils/test">
-    <configuration name="BenchmarkRandString in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestGetUserByName in blog-server/database/test">
+    <configuration name="go build blog-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="blog-server" />
-      <working_directory value="$PROJECT_DIR$/utils/test" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="blog-server/utils/test" />
+      <package value="blog-server" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <pattern value="^\QBenchmarkRandString\E$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCaller in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="blog-server" />
-      <working_directory value="$PROJECT_DIR$/utils/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="blog-server/utils/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCaller\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestConfig in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConfig in blog-server/utils/test (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="blog-server" />
       <working_directory value="$PROJECT_DIR$/utils/test" />
       <root_directory value="$PROJECT_DIR$" />
@@ -94,7 +90,31 @@
       <pattern value="^\QTestConfig\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestLogger in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetBlogDBConnection in blog-server/database/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="blog-server" />
+      <working_directory value="$PROJECT_DIR$/database/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="blog-server/database/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGetBlogDBConnection\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetUserByName in blog-server/database/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="blog-server" />
+      <working_directory value="$PROJECT_DIR$/database/test" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="blog-server/database/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGetUserByName\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLogger in blog-server/utils/test (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="blog-server" />
       <working_directory value="$PROJECT_DIR$/utils/test" />
       <root_directory value="$PROJECT_DIR$" />
@@ -106,25 +126,13 @@
       <pattern value="^\QTestLogger\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRandStringRunes in blog-server/utils/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="blog-server" />
-      <working_directory value="$PROJECT_DIR$/utils/test" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="blog-server/utils/test" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestRandStringRunes\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestLogger in blog-server/utils/test" />
-        <item itemvalue="Go Test.TestConfig in blog-server/utils/test" />
-        <item itemvalue="Go Test.TestCaller in blog-server/utils/test" />
-        <item itemvalue="Go Test.TestRandStringRunes in blog-server/utils/test" />
-        <item itemvalue="Go Test.BenchmarkRandString in blog-server/utils/test" />
+        <item itemvalue="Go Test.TestGetUserByName in blog-server/database/test" />
+        <item itemvalue="Go Test.TestGetBlogDBConnection in blog-server/database/test" />
+        <item itemvalue="Go Test.TestLogger in blog-server/utils/test (1)" />
+        <item itemvalue="Go Build.go build blog-server" />
+        <item itemvalue="Go Test.TestConfig in blog-server/utils/test (1)" />
       </list>
     </recent_temporary>
   </component>
