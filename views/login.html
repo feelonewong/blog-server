@@ -6,8 +6,65 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-latest.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/md5.js"></script>
+    <style>
+        .wrapper {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="wrapper">
+        <h1>登录页面</h1>
+        <form id="loginForm">
+            <table>
+                <tr>
+                    <td>用户名</td>
+                    <td><input style="border: 1px solid; border-radius: 3px;" type="text" size="20" id="user" autofocus name="user" /></td>
+                </tr>
+                <tr>
+                    <td>密码</td>
+                    <td><input style="border: 1px solid; border-radius: 3px;"  type="password" size="20" id="pass" autofocus name="pass" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">登录</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <span id="msg" style="color: red"></span>
+    </div>
 </body>
+<script>
+    $(document).ready(
+        function () {
+            $("#loginForm").submit(function (event){
+                event.preventDefault()
+                let formData = new FormData()
+                formData.append("user", document.getElementById("user").value)
+                var pass = document.getElementById("pass").value
+                var digest = CryptoJS.MD5(pass)
+                formData.append("pass", digest)
+                fetch('/login/submit', {
+                    method: 'POST',
+                    body: formData,
+                })
+                    .then(response => {
+                        //
+                        return response.json()
+                    })
+                    .then(data => {
+                        // + data.uid
+                        window.location.href = "/blog/list/"
+                    })
+                    .catch(error => console.error(error));
+            })
+        }
+    )
+</script>
 </html>
